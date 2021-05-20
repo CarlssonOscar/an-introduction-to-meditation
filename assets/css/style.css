@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    background-color: #ecf4fb;
+}
+ /* display content in center */
+header {
+    color: #45492a;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* display navigation in center */
+nav {
+    height: 80px;
+    border-top: 2px solid #45492a;
+    border-bottom: 2 px #45492a;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
